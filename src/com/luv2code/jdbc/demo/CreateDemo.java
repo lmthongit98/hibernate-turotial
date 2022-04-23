@@ -6,7 +6,6 @@ import org.hibernate.cfg.Configuration;
 
 import com.luv2code.jdbc.demo.entity.Instructor;
 import com.luv2code.jdbc.demo.entity.InstructorDetail;
-import com.luv2code.jdbc.demo.entity.Student;
 
 public class CreateDemo {
 
@@ -29,9 +28,9 @@ public class CreateDemo {
 			 * "http://www.luv2code.com/youtube", "Luv 2 code!!!");
 			 */
 
-			Instructor tempInstructor = new Instructor("Madhu", "Patel", "madhu@luv2code.com");
+			Instructor tempInstructor = new Instructor("Thong", "Ly", "lminhthong@gmail.com");
 
-			InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.youtube.com", "Guitar");
+			InstructorDetail tempInstructorDetail = new InstructorDetail("http://www.youtube.com", "Code Java");
 
 			// associate the objects
 			tempInstructor.setInstructorDetail(tempInstructorDetail);

@@ -6,7 +6,6 @@ import org.hibernate.cfg.Configuration;
 
 import com.luv2code.jdbc.demo.entity.Instructor;
 import com.luv2code.jdbc.demo.entity.InstructorDetail;
-import com.luv2code.jdbc.demo.entity.Student;
 
 public class DeleteDemo {
 
@@ -24,7 +23,7 @@ public class DeleteDemo {
 			session.beginTransaction();
 
 			// get instructor by primary key / id
-			int theId = 1;
+			int theId = 2;
 			Instructor tempInstructor = session.get(Instructor.class, theId);
 
 			System.out.println("Found instructor: " + tempInstructor);
