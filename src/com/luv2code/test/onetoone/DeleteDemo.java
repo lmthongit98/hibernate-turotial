@@ -1,11 +1,11 @@
-package com.luv2code.jdbc.demo;
+package com.luv2code.test.onetoone;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import com.luv2code.jdbc.demo.entity.Instructor;
-import com.luv2code.jdbc.demo.entity.InstructorDetail;
+import com.luv2code.entity.onetoone.Instructor;
+import com.luv2code.entity.onetoone.InstructorDetail;
 
 public class DeleteDemo {
 
@@ -23,7 +23,7 @@ public class DeleteDemo {
 			session.beginTransaction();
 
 			// get instructor by primary key / id
-			int theId = 2;
+			int theId = 5;
 			Instructor tempInstructor = session.get(Instructor.class, theId);
 
 			System.out.println("Found instructor: " + tempInstructor);

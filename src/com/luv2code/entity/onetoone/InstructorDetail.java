@@ -1,4 +1,4 @@
-package com.luv2code.jdbc.demo.entity;
+package com.luv2code.entity.onetoone;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
