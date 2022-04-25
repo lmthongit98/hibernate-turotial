@@ -1,4 +1,4 @@
-package com.luv2code.entity.onetomany;
+package com.luv2code.entity.onetomanybi;
 
 import java.util.ArrayList;
 import java.util.List;

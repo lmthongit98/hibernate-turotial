@@ -1,4 +1,4 @@
-package com.luv2code.entity.onetomany;
+package com.luv2code.entity.onetomanybi;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
